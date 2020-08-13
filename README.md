@@ -3,7 +3,7 @@
 Test 1:
 1. Validation done for card data in jquery and credit card validation in java contain Luhn algorithm if needed we can make use
 2. sorting data based on expire date in descending order is done
-3. Masking is done for card No is done
+3. Masking is done for card No 
 4. Request mapping for EXCEL file upload 
 5. Implementation for Luhn Algorithm
 
