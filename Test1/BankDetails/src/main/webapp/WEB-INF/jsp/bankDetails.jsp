@@ -60,9 +60,9 @@ function validateDataEntry() {
 	var bankName = $("#bankName").val();
 	var cardNo = $("#cardNo").val();
 	var expireDate = $("#expireDate").val();
-	var bankRegex = /^[a-zA-Z][a-zA-Z\\s]+$/;
-    var cardRegex = /^[- 0-9]+$/;
-    var expireDateRegex = /^[-0-9a-zA-Z]+$/;
+	var bankRegex =  /^[a-zA-Z ]+$/;
+   	var cardRegex = /^[- 0-9]+$/;
+     	var expireDateRegex = /^[-0-9a-zA-Z]+$/;
   
 	if(bankName == ""){
 		alert("Please enter bank name field");
